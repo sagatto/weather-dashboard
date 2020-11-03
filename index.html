@@ -2,13 +2,13 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Weather Dashboard</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <title>Weather Dashboard</title>
 </head>
 
 <body>
@@ -23,13 +23,13 @@
 
             <!-- Search Form -->
             <div class="col-12">
-                <h3>Search for a City:</h3>
+                <h4>Search for a City:</h4>
                 <form id="cityInputForm">
                     <input type="text" id="cityInput" placeholder="San Francisco, CA" autocomplete="off" />
-                    <button type="submit" class="btn btn-primary" id=cityInputButton>Search</button>
+                    <button type="submit" class="btn btn-primary" id=cityInputButton><i class="fa fa-search"></i></button>
                 </form>
             </div>
-
+            <p>&nbsp;</p>
             <!-- Search History -->
             <div class="col-12" id="list-group-container">
                 <h4>Search History:</h4>
@@ -40,11 +40,10 @@
 
         <!-- Current Weather Div -->
         <div class="col-md-9 col-12 right-side row">
-            <h2 id="currentWeatherHeader">Current Weather:</h2>
+            
             <div class="row col-12" id="currentWeatherContainer">
                 <div class="col-12" id="currentWeather">
-                    <h3 id="cityName"></h3>
-                    <span><img id="currentIcon"></span>
+                    <h3 id="cityName">&nbsp;</h3><img id="currentIcon" width="30" height="30" src="&nbsp;" alt="Weather Icon">
                     <p id="currentTemp"></p>
                     <p id="currentHum"></p>
                     <p id="currentWind"></p>
@@ -58,7 +57,7 @@
                 <div class="card text-white bg-primary mb-3 col-lg-2 col-md-4 col-sm-12" style="max-width: 18rem;">
                     <div class="card-header" id="futureDateOne"></div>
                     <div>
-                        <span><img id="futureIconOne"></span></h3>
+                        <span><img id="futureIconOne" width="30" height="30" src="&nbsp;" alt="Weather Icon"></span>
                         <p class="card-text" id="futureTempOne"></p>
                         <p class="card-text" id=futureHumOne></p>
                     </div>
@@ -67,7 +66,7 @@
                 <div class="card text-white bg-primary mb-3 col-lg-2 col-md-4 col-sm-12" style="max-width: 18rem;">
                     <div class="card-header" id="futureDateTwo"></div>
                     <div>
-                        <span><img id="futureIconTwo"></span></h3>
+                        <span><img id="futureIconTwo" width="30" height="30" src="&nbsp;" alt="Weather Icon"></span>
                         <p class="card-text" id="futureTempTwo"></p>
                         <p class="card-text" id=futureHumTwo></p>
                     </div>
@@ -76,7 +75,7 @@
                 <div class="card text-white bg-primary mb-3 col-lg-2 col-md-4 col-sm-12" style="max-width: 18rem;">
                     <div class="card-header" id="futureDateThree"></div>
                     <div>
-                        <span><img id="futureIconThree"></span></h3>
+                        <span><img id="futureIconThree" width="30" height="30" src="&nbsp;" alt="Weather Icon"></span>
                         <p class="card-text" id="futureTempThree"></p>
                         <p class="card-text" id=futureHumThree></p>
                     </div>
@@ -85,7 +84,7 @@
                 <div class="card text-white bg-primary mb-3 col-lg-2 col-md-4 col-sm-12" style="max-width: 18rem;">
                     <div class="card-header" id="futureDateFour"></div>
                     <div>
-                        <span><img id="futureIconFour"></span></h3>
+                        <span><img id="futureIconFour" width="30" height="30" src="&nbsp;" alt="Weather Icon"></span>
                         <p class="card-text" id="futureTempFour"></p>
                         <p class="card-text" id=futureHumFour></p>
                     </div>
@@ -94,7 +93,7 @@
                 <div class="card text-white bg-primary mb-3 col-lg-2 col-md-4 col-sm-12" style="max-width: 18rem;">
                     <div class="card-header" id="futureDateFive"></div>
                     <div>
-                        <span><img id="futureIconFive"></span></h3>
+                        <span><img id="futureIconFive" width="30" height="30" src="&nbsp;" alt="Weather Icon"></span>
                         <p class="card-text" id="futureTempFive"></p>
                         <p class="card-text" id=futureHumFive></p>
                     </div>

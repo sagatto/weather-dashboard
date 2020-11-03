@@ -21,6 +21,10 @@
     font-size: 16px;
   }
   
+  .bg-primary {
+    background-color: var(--dark);
+  }
+
   nav {
     width: 100%;
     text-align: center;
@@ -53,16 +57,18 @@
     width: 94%;
   }
   
+  .left-side {
+    padding: 30px 30px;
+  }
+
   p {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
   
    .btn {
-    font-size: 1.3rem;
+    font-size: 1rem;
     text-decoration:none;
     padding: 6px 5px;
-    width: 100%;
-    display: block;
     margin: 5px 0;
     border-radius: var(--border-radius);
     color: var(--primary);
@@ -129,16 +135,16 @@
     list-style: none;
   }
   
-  .list-item {
+  .list-group-item {
     margin-bottom: 10px;
     padding: 1.5%;
     border-radius: var(--border-radius);
     background-color: var(--light-dark);
-    color: var(--primary);
+    color: #fff;
     text-decoration: none;
   }
   
-  .list-item:hover {
+  .list-group-item:hover {
     background-color: var(--dark);
   }
   
@@ -156,19 +162,20 @@
   .icon-success {
     color: rgb(29, 153, 255);
   }
-  
+
   /* CARDS */
   .card {
     margin: 0 0 20px 0;
-    border: 3px solid var(--dark);
-    border-radius: var(--border-radius);
+    /* border: 0px solid var(--dark); */
+    /* border-radius: var(--border-radius); */
   }
   
   .card-header {
     color: var(--primary);
-    background-color: var(--dark);
     padding: 2.5%;
-    border-radius: calc(.18rem - 1px) calc(.18rem - 1px) 0 0;
+    /* border-radius: calc(.18rem - 1px) calc(.18rem - 1px) 0 0; */
+    text-align: center;
+    border-bottom: none;
   }
   
   .card-body {
